@@ -222,9 +222,9 @@ absences=st.number_input("No.of School Absences",min_value=0, max_value=32)
 Algo = st.selectbox(
     
     "Select Algorithms ",
-    ('Decision Trees','Support Vector Machie','Randomforest','KNN'))
+    ('Decision Trees','Support Vector Machine','Randomforest','KNN'))
 
-dic_algo={'Decision Trees':0,'Support Vector Machie':1,'Randomforest':2,'KNN':3}
+dic_algo={'Decision Trees':0,'Support Vector Machine':1,'Randomforest':2,'KNN':3}
 counter=dic_algo[Algo]
 dec=pickle.load(open("decisiontree.sav",'rb'))
 svm=pickle.load(open("svm.sav",'rb'))

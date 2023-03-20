@@ -244,11 +244,11 @@ if st.button('Predict'):
     if counter==0:
         st.success("Decisointree:"+str(pred1[0]))
     if counter==1:
-        st.write("Support Vector Machine:"+str(pred2[0]))
+        st.success("Support Vector Machine:"+str(pred2[0]))
     if counter==2:
-        st.write("Random Forest:"+str(pred3[0]))
+        st.success("Random Forest:"+str(pred3[0]))
     if counter==3:
-        st.write("KNN:"+str(pred5[0]))
+        st.success("KNN:"+str(pred5[0]))
     
 else:
     st.write('click above for prediction')

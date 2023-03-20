@@ -242,7 +242,7 @@ if st.button('Predict'):
 
     pred5=knn.predict([values])
     if counter==0:
-        st.write("Decisointree:"+str(pred1[0]))
+        st.success("Decisointree:"+str(pred1[0]))
     if counter==1:
         st.write("Support Vector Machine:"+str(pred2[0]))
     if counter==2:

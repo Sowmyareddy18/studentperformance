@@ -20,7 +20,8 @@ dic14={'True':1,'False':0}
 
 
 
-st.title('Analysis and Prediction of',end='\n','Student Performace')
+st.title('Analysis and Prediction of',end='\n')
+st.title('Student Performace')
 
 School = st.selectbox(
     

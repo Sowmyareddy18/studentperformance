@@ -239,8 +239,7 @@ if st.button('Predict'):
     pred1=dec.predict([values])
     pred2=svm.predict([values])
     pred3=random.predict([values])
-
-    pred5=knn.predict([values])
+    pred4=knn.predict([values])
     if counter==0:
         st.success("Decisointree:"+str(pred1[0]))
     if counter==1:
@@ -248,7 +247,7 @@ if st.button('Predict'):
     if counter==2:
         st.success("Random Forest:"+str(pred3[0]))
     if counter==3:
-        st.success("KNN:"+str(pred5[0]))
+        st.success("KNN:"+str(pred4[0]))
     
 else:
     st.write('click above for prediction')
